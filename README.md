@@ -53,6 +53,20 @@ Install dependencies.
 pnpm install
 ```
 
+Create a file named env.local and define the following environment variables:
+
+```bash
+VITE_APPWRITE_URL = ''
+VITE_APPWRITE_PROJECT_ID = ''
+VITE_APPWRITE_DATABASE_ID = ''
+VITE_APPWRITE_STORAGE_ID = ''
+VITE_APPWRITE_USER_COLLECTION_ID = ''
+VITE_APPWRITE_POST_COLLECTION_ID = ''
+VITE_APPWRITE_SAVES_COLLECTION_ID = ''
+VITE_RESET_PASS_REDIRECT_URL = "http://localhost:5173/reset-password"
+VITE_VERIFICATION_REDIRECT_URL = "http://localhost:5173/verification"
+```
+
 Serve with hot reload at <http://localhost:5173>.
 
 ```bash
