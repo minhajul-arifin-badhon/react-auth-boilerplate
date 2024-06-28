@@ -53,7 +53,7 @@ Install dependencies.
 pnpm install
 ```
 
-Create a file named env.local and define the following environment variables:
+Create a file named .env.local and define the following environment variables:
 
 ```bash
 VITE_APPWRITE_URL = ''
